@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "github-repos"
+    }
+  },
+  "defaultProject": "github-repos",
+  "cli": {
+    "analytics": "a913e666-ace0-4afb-a7b9-8dab1cb9a1b3"
+  }
 }

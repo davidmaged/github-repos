@@ -1,0 +1,14 @@
+<div class="repo-container">
+  <div
+    class="repo-owner-avatar"
+    [ngStyle]="{ 'background-image': 'url(' + repo.avatar + ')' }"
+  ></div>
+  <div class="repo-details">
+    <p>{{ repo.name }}</p>
+    <p>{{ repo.description }}</p>
+    <div class="repo-details-num">
+      <p class="repo-stars">{{ repo.stars }}</p>
+      <p class="repo-issues">{{ repo.issues }}</p>
+    </div>
+  </div>
+</div>

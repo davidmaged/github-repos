@@ -1,0 +1,11 @@
+<div
+  class="search-results"
+  infiniteScroll
+  [infiniteScrollDistance]="2"
+  [infiniteScrollThrottle]="50"
+  (scrolled)="onScroll()"
+>
+  <div *ngFor="let repo of repos">
+    <app-repo-details [repo]="repo"></app-repo-details>
+  </div>
+</div>

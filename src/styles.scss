@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/* imports */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700");
+
+/* global sass variables */
+$family-sans-serif: "Nunito", sans-serif;
+
+body {
+  font-family: $family-sans-serif;
+}
